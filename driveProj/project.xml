@@ -236,7 +236,7 @@
 						<Value />
 					</Increment>
 				</ComboBox>
-				<ComboBox Name="ComboBox2">
+				<ComboBox Name="input12">
 					<Left IsStatic="True">
 						<Value>27</Value>
 					</Left>
@@ -268,7 +268,7 @@
 						<Value />
 					</Tag>
 					<TooltipText IsStatic="True">
-						<Value />
+						<Value>This will help everyone</Value>
 					</TooltipText>
 					<TooltipDuration IsStatic="True">
 						<Value>5</Value>
@@ -289,13 +289,13 @@
 						<Value>ControlText</Value>
 					</CaptionColor>
 					<Items IsStatic="False">
-						<Value />
+						<Rule>="testing|this|input"</Rule>
 					</Items>
 					<SelectedItem IsStatic="False">
-						<Rule>=IF(ComboBox2="","",ComboBox2)</Rule>
+						<Rule>=IF(input12="","",input12)</Rule>
 					</SelectedItem>
 					<SelectedItemSource IsStatic="False">
-						<Value />
+						<Value>testing</Value>
 					</SelectedItemSource>
 					<SelectedItemRemovedBehavior IsStatic="True">
 						<Value>SelectFirst</Value>
