@@ -1,13 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project:Project Version="8.0" GroupConnectionString="Provider=LocalGroupProvider;Path=C:\Users\markc\Documents\a\a.drivegroup" DesignMasterExtension=".drivemaster" EmbedChildSpecifications="true" xmlns:project="http://schemas.driveworks.co.uk/project/" MetadataDirectoryName="DriveWorksFiles" AdditionalFoldersRelativeToSpecificationFolder="true" DocumentsRelativeToSpecificationFolder="true">
-  <project:DataTables />
-  <project:VariableCategories />
-  <project:Documents />
-  <project:ComponentSets />
-  <project:ChildSpecificationDefinitions />
-  <project:ItemListDefinitions />
-  <project:SpecificationProperties />
-  <project:Forms><Form Name="Details" xmlns="pa-namespace:DriveWorks.Forms,DriveWorks.Engine"><Tag IsStatic="True"><Value /></Tag><DefaultFont IsStatic="True"><Value>font-family: Microsoft Sans Serif; font-size: 8.25pt; text-decoration:</Value></DefaultFont><ShowTaskList IsStatic="True"><Value>True</Value></ShowTaskList><ShowDefaultNavigation IsStatic="True"><Value>True</Value></ShowDefaultNavigation><OnNext IsStatic="True"><Value /></OnNext><OnPrevious IsStatic="True"><Value /></OnPrevious><OnEnter IsStatic="True"><Value /></OnEnter><BackgroundColor IsStatic="True"><Value>White</Value></BackgroundColor><Value IsStatic="True"><Value /></Value><Minimum IsStatic="True"><Value /></Minimum><Maximum IsStatic="True"><Value /></Maximum><Increment IsStatic="True"><Value /></Increment><Enabled IsStatic="True"><Value /></Enabled><Visible IsStatic="True"><Value /></Visible><MessageCode IsStatic="True"><Value /></MessageCode><ListData IsStatic="True"><Value /></ListData><Source IsStatic="True"><Value /></Source><Controls><CheckBox Name="CheckBox1"><Left IsStatic="True"><Value>50</Value></Left><Top IsStatic="True"><Value>50</Value></Top><Width IsStatic="True"><Value>100</Value></Width><Height IsStatic="True"><Value>24</Value></Height><TabIndex IsStatic="True"><Value>0</Value></TabIndex><Visible IsStatic="False"><Value>True</Value></Visible><Enabled IsStatic="False"><Value>True</Value></Enabled><Error IsStatic="False"><Value /></Error><BackgroundColor IsStatic="True"><Value>White</Value></BackgroundColor><Tag IsStatic="True"><Value /></Tag><TooltipText IsStatic="True"><Value /></TooltipText><TooltipDuration IsStatic="True"><Value>5</Value></TooltipDuration><Caption IsStatic="True"><Value>Check Box1</Value></Caption><CaptionHorizontalAlignment IsStatic="True"><Value>Left</Value></CaptionHorizontalAlignment><EffectiveCaptionFont IsStatic="True"><Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value></EffectiveCaptionFont><CaptionColor IsStatic="True"><Value>ControlText</Value></CaptionColor><Checked IsStatic="False"><Rule>=IF(CheckBox1="","",CheckBox1)</Rule></Checked><CheckedSource IsStatic="False"><Value>False</Value></CheckedSource><CheckAlignment IsStatic="True"><Value>Left</Value></CheckAlignment><ShowCheck IsStatic="True"><Value>True</Value></ShowCheck><PictureDefault IsStatic="True"><Value /></PictureDefault><PictureChecked IsStatic="True"><Value /></PictureChecked><PictureStyle IsStatic="True"><Value>TextAndPicture</Value></PictureStyle><PictureSizeMode IsStatic="True"><Value>Center</Value></PictureSizeMode><DefaultValue IsStatic="True"><Value>False</Value></DefaultValue><Minimum IsStatic="True"><Value /></Minimum><Maximum IsStatic="True"><Value /></Maximum><Increment IsStatic="True"><Value /></Increment><ListData IsStatic="True"><Value /></ListData></CheckBox><ComboBox Name="ComboBox1"><Left IsStatic="True"><Value>50</Value></Left><Top IsStatic="True"><Value>100</Value></Top><Width IsStatic="True"><Value>150</Value></Width><Height IsStatic="True"><Value>24</Value></Height><TabIndex IsStatic="True"><Value>0</Value></TabIndex><Visible IsStatic="False"><Value>True</Value></Visible><Enabled IsStatic="False"><Value>True</Value></Enabled><Error IsStatic="False"><Value /></Error><BackgroundColor IsStatic="True"><Value>White</Value></BackgroundColor><Tag IsStatic="True"><Value /></Tag><TooltipText IsStatic="True"><Value /></TooltipText><TooltipDuration IsStatic="True"><Value>5</Value></TooltipDuration><Caption IsStatic="True"><Value>Combo Box1</Value></Caption><CaptionWidth IsStatic="True"><Value>120</Value></CaptionWidth><CaptionHorizontalAlignment IsStatic="True"><Value>Left</Value></CaptionHorizontalAlignment><EffectiveCaptionFont IsStatic="True"><Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value></EffectiveCaptionFont><CaptionColor IsStatic="True"><Value>ControlText</Value></CaptionColor><Items IsStatic="False"><Value /></Items><SelectedItem IsStatic="False"><Rule>=IF(ComboBox1="","",ComboBox1)</Rule></SelectedItem><SelectedItemSource IsStatic="False"><Value /></SelectedItemSource><SelectedItemRemovedBehavior IsStatic="True"><Value>SelectFirst</Value></SelectedItemRemovedBehavior><AllowClearSelectedItem IsStatic="True"><Value>False</Value></AllowClearSelectedItem><DefaultValue IsStatic="True"><Value /></DefaultValue><ItemColor IsStatic="True"><Value>ControlText</Value></ItemColor><EffectiveItemFont IsStatic="True"><Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value></EffectiveItemFont><Minimum IsStatic="True"><Value /></Minimum><Maximum IsStatic="True"><Value /></Maximum><Increment IsStatic="True"><Value /></Increment></ComboBox></Controls></Form></project:Forms>
-  <project:SpecificationMacros /><project:CalculationTables />
-  <project:SpecificationMacroCategories />
+	<project:DataTables />
+	<project:VariableCategories />
+	<project:Documents />
+	<project:ComponentSets />
+	<project:ChildSpecificationDefinitions />
+	<project:ItemListDefinitions />
+	<project:SpecificationProperties />
+	<project:Forms>
+		<Form Name="Details" xmlns="pa-namespace:DriveWorks.Forms,DriveWorks.Engine">
+			<Tag IsStatic="True">
+				<Value />
+			</Tag>
+			<DefaultFont IsStatic="True">
+				<Value>font-family: Microsoft Sans Serif; font-size: 8.25pt; text-decoration:</Value>
+			</DefaultFont>
+			<ShowTaskList IsStatic="True">
+				<Value>True</Value>
+			</ShowTaskList>
+			<ShowDefaultNavigation IsStatic="True">
+				<Value>True</Value>
+			</ShowDefaultNavigation>
+			<OnNext IsStatic="True">
+				<Value />
+			</OnNext>
+			<OnPrevious IsStatic="True">
+				<Value />
+			</OnPrevious>
+			<OnEnter IsStatic="True">
+				<Value />
+			</OnEnter>
+			<BackgroundColor IsStatic="True">
+				<Value>White</Value>
+			</BackgroundColor>
+			<Value IsStatic="True">
+				<Value />
+			</Value>
+			<Minimum IsStatic="True">
+				<Value />
+			</Minimum>
+			<Maximum IsStatic="True">
+				<Value />
+			</Maximum>
+			<Increment IsStatic="True">
+				<Value />
+			</Increment>
+			<Enabled IsStatic="True">
+				<Value />
+			</Enabled>
+			<Visible IsStatic="True">
+				<Value />
+			</Visible>
+			<MessageCode IsStatic="True">
+				<Value />
+			</MessageCode>
+			<ListData IsStatic="True">
+				<Value />
+			</ListData>
+			<Source IsStatic="True">
+				<Value />
+			</Source>
+			<Controls>
+				<CheckBox Name="CheckBox1">
+					<Left IsStatic="True">
+						<Value>50</Value>
+					</Left>
+					<Top IsStatic="True">
+						<Value>50</Value>
+					</Top>
+					<Width IsStatic="True">
+						<Value>100</Value>
+					</Width>
+					<Height IsStatic="True">
+						<Value>24</Value>
+					</Height>
+					<TabIndex IsStatic="True">
+						<Value>0</Value>
+					</TabIndex>
+					<Visible IsStatic="False">
+						<Value>True</Value>
+					</Visible>
+					<Enabled IsStatic="False">
+						<Value>True</Value>
+					</Enabled>
+					<Error IsStatic="False">
+						<Value />
+					</Error>
+					<BackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</BackgroundColor>
+					<Tag IsStatic="True">
+						<Value />
+					</Tag>
+					<TooltipText IsStatic="True">
+						<Value />
+					</TooltipText>
+					<TooltipDuration IsStatic="True">
+						<Value>5</Value>
+					</TooltipDuration>
+					<Caption IsStatic="True">
+						<Value>Check Box1</Value>
+					</Caption>
+					<CaptionHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</CaptionHorizontalAlignment>
+					<EffectiveCaptionFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveCaptionFont>
+					<CaptionColor IsStatic="True">
+						<Value>ControlText</Value>
+					</CaptionColor>
+					<Checked IsStatic="False">
+						<Rule>=IF(CheckBox1="","",CheckBox1)</Rule>
+					</Checked>
+					<CheckedSource IsStatic="False">
+						<Value>False</Value>
+					</CheckedSource>
+					<CheckAlignment IsStatic="True">
+						<Value>Left</Value>
+					</CheckAlignment>
+					<ShowCheck IsStatic="True">
+						<Value>True</Value>
+					</ShowCheck>
+					<PictureDefault IsStatic="True">
+						<Value />
+					</PictureDefault>
+					<PictureChecked IsStatic="True">
+						<Value />
+					</PictureChecked>
+					<PictureStyle IsStatic="True">
+						<Value>TextAndPicture</Value>
+					</PictureStyle>
+					<PictureSizeMode IsStatic="True">
+						<Value>Center</Value>
+					</PictureSizeMode>
+					<DefaultValue IsStatic="True">
+						<Value>False</Value>
+					</DefaultValue>
+					<Minimum IsStatic="True">
+						<Value />
+					</Minimum>
+					<Maximum IsStatic="True">
+						<Value />
+					</Maximum>
+					<Increment IsStatic="True">
+						<Value />
+					</Increment>
+					<ListData IsStatic="True">
+						<Value />
+					</ListData>
+				</CheckBox>
+				<ComboBox Name="ComboBox1">
+					<Left IsStatic="True">
+						<Value>50</Value>
+					</Left>
+					<Top IsStatic="True">
+						<Value>100</Value>
+					</Top>
+					<Width IsStatic="True">
+						<Value>200</Value>
+					</Width>
+					<Height IsStatic="True">
+						<Value>24</Value>
+					</Height>
+					<TabIndex IsStatic="True">
+						<Value>0</Value>
+					</TabIndex>
+					<Visible IsStatic="False">
+						<Value>True</Value>
+					</Visible>
+					<Enabled IsStatic="False">
+						<Value>True</Value>
+					</Enabled>
+					<Error IsStatic="False">
+						<Value />
+					</Error>
+					<BackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</BackgroundColor>
+					<Tag IsStatic="True">
+						<Value />
+					</Tag>
+					<TooltipText IsStatic="True">
+						<Value />
+					</TooltipText>
+					<TooltipDuration IsStatic="True">
+						<Value>5</Value>
+					</TooltipDuration>
+					<Caption IsStatic="True">
+						<Value>Combo Box1</Value>
+					</Caption>
+					<CaptionWidth IsStatic="True">
+						<Value>100</Value>
+					</CaptionWidth>
+					<CaptionHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</CaptionHorizontalAlignment>
+					<EffectiveCaptionFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveCaptionFont>
+					<CaptionColor IsStatic="True">
+						<Value>ControlText</Value>
+					</CaptionColor>
+					<Items IsStatic="False">
+						<Rule>="one|two|three"</Rule>
+					</Items>
+					<SelectedItem IsStatic="False">
+						<Rule>=IF(ComboBox1="","",ComboBox1)</Rule>
+					</SelectedItem>
+					<SelectedItemSource IsStatic="False">
+						<Value>three</Value>
+					</SelectedItemSource>
+					<SelectedItemRemovedBehavior IsStatic="True">
+						<Value>SelectFirst</Value>
+					</SelectedItemRemovedBehavior>
+					<AllowClearSelectedItem IsStatic="True">
+						<Value>False</Value>
+					</AllowClearSelectedItem>
+					<DefaultValue IsStatic="True">
+						<Value />
+					</DefaultValue>
+					<ItemColor IsStatic="True">
+						<Value>ControlText</Value>
+					</ItemColor>
+					<EffectiveItemFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveItemFont>
+					<Minimum IsStatic="True">
+						<Value />
+					</Minimum>
+					<Maximum IsStatic="True">
+						<Value />
+					</Maximum>
+					<Increment IsStatic="True">
+						<Value />
+					</Increment>
+				</ComboBox>
+			</Controls>
+		</Form>
+	</project:Forms>
+	<project:SpecificationMacros />
+	<project:CalculationTables />
+	<project:SpecificationMacroCategories />
 </project:Project>
