@@ -236,6 +236,92 @@
 						<Value />
 					</Increment>
 				</ComboBox>
+				<ComboBox Name="ComboBox2">
+					<Left IsStatic="True">
+						<Value>27</Value>
+					</Left>
+					<Top IsStatic="True">
+						<Value>152</Value>
+					</Top>
+					<Width IsStatic="True">
+						<Value>150</Value>
+					</Width>
+					<Height IsStatic="True">
+						<Value>24</Value>
+					</Height>
+					<TabIndex IsStatic="True">
+						<Value>0</Value>
+					</TabIndex>
+					<Visible IsStatic="False">
+						<Value>True</Value>
+					</Visible>
+					<Enabled IsStatic="False">
+						<Value>True</Value>
+					</Enabled>
+					<Error IsStatic="False">
+						<Value />
+					</Error>
+					<BackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</BackgroundColor>
+					<Tag IsStatic="True">
+						<Value />
+					</Tag>
+					<TooltipText IsStatic="True">
+						<Value />
+					</TooltipText>
+					<TooltipDuration IsStatic="True">
+						<Value>5</Value>
+					</TooltipDuration>
+					<Caption IsStatic="True">
+						<Value>Combo Box2</Value>
+					</Caption>
+					<CaptionWidth IsStatic="True">
+						<Value>100</Value>
+					</CaptionWidth>
+					<CaptionHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</CaptionHorizontalAlignment>
+					<EffectiveCaptionFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveCaptionFont>
+					<CaptionColor IsStatic="True">
+						<Value>ControlText</Value>
+					</CaptionColor>
+					<Items IsStatic="False">
+						<Value />
+					</Items>
+					<SelectedItem IsStatic="False">
+						<Rule>=IF(ComboBox2="","",ComboBox2)</Rule>
+					</SelectedItem>
+					<SelectedItemSource IsStatic="False">
+						<Value />
+					</SelectedItemSource>
+					<SelectedItemRemovedBehavior IsStatic="True">
+						<Value>SelectFirst</Value>
+					</SelectedItemRemovedBehavior>
+					<AllowClearSelectedItem IsStatic="True">
+						<Value>False</Value>
+					</AllowClearSelectedItem>
+					<DefaultValue IsStatic="True">
+						<Value />
+					</DefaultValue>
+					<ItemColor IsStatic="True">
+						<Value>ControlText</Value>
+					</ItemColor>
+					<EffectiveItemFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveItemFont>
+					<Minimum IsStatic="True">
+						<Value />
+					</Minimum>
+					<Maximum IsStatic="True">
+						<Value />
+					</Maximum>
+					<Increment IsStatic="True">
+						<Value />
+					</Increment>
+				</ComboBox>
 			</Controls>
 		</Form>
 	</project:Forms>
