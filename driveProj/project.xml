@@ -244,7 +244,7 @@
 						<Value>152</Value>
 					</Top>
 					<Width IsStatic="True">
-						<Value>150</Value>
+						<Value>200</Value>
 					</Width>
 					<Height IsStatic="True">
 						<Value>24</Value>
@@ -322,6 +322,123 @@
 						<Value />
 					</Increment>
 				</ComboBox>
+				<DataTableControl Name="DataTableControl1">
+					<Left IsStatic="True">
+						<Value>27</Value>
+					</Left>
+					<Top IsStatic="True">
+						<Value>186</Value>
+					</Top>
+					<Width IsStatic="True">
+						<Value>500</Value>
+					</Width>
+					<Height IsStatic="True">
+						<Value>200</Value>
+					</Height>
+					<TabIndex IsStatic="True">
+						<Value>0</Value>
+					</TabIndex>
+					<Visible IsStatic="False">
+						<Value>True</Value>
+					</Visible>
+					<Enabled IsStatic="False">
+						<Value>True</Value>
+					</Enabled>
+					<Error IsStatic="False">
+						<Value />
+					</Error>
+					<BackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</BackgroundColor>
+					<Tag IsStatic="True">
+						<Value />
+					</Tag>
+					<TooltipText IsStatic="True">
+						<Value />
+					</TooltipText>
+					<TooltipDuration IsStatic="True">
+						<Value>5</Value>
+					</TooltipDuration>
+					<Items IsStatic="False" />
+					<SelectedRowIndex IsStatic="False">
+						<Rule>=IF(DataTableControl1="","",DataTableControl1)</Rule>
+					</SelectedRowIndex>
+					<IdentityFields IsStatic="True">
+						<Value />
+					</IdentityFields>
+					<HiddenFields IsStatic="True">
+						<Value />
+					</HiddenFields>
+					<DefaultRowIndex IsStatic="True">
+						<Value>0</Value>
+					</DefaultRowIndex>
+					<ColumnWidths IsStatic="False">
+						<Value />
+					</ColumnWidths>
+					<EffectiveTextFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveTextFont>
+					<EffectiveHeaderFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveHeaderFont>
+					<TextFontColor IsStatic="True">
+						<Value>ControlText</Value>
+					</TextFontColor>
+					<HeaderFontColor IsStatic="True">
+						<Value>ControlText</Value>
+					</HeaderFontColor>
+					<RowHoverBackgroundColor IsStatic="True">
+						<Value>WhiteSmoke</Value>
+					</RowHoverBackgroundColor>
+					<RowHoverTextColor IsStatic="True">
+						<Value>ControlText</Value>
+					</RowHoverTextColor>
+					<ShowGridLines IsStatic="True">
+						<Value>True</Value>
+					</ShowGridLines>
+					<RowHeight IsStatic="True">
+						<Value>0</Value>
+					</RowHeight>
+					<HeaderBackgroundColor IsStatic="True">
+						<Value>WhiteSmoke</Value>
+					</HeaderBackgroundColor>
+					<RowBackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</RowBackgroundColor>
+					<RowTextHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</RowTextHorizontalAlignment>
+					<RowTextVerticalAlignment IsStatic="True">
+						<Value>Center</Value>
+					</RowTextVerticalAlignment>
+					<HeaderTextHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</HeaderTextHorizontalAlignment>
+					<HeaderTextVerticalAlignment IsStatic="True">
+						<Value>Center</Value>
+					</HeaderTextVerticalAlignment>
+					<SelectedRowTextColor IsStatic="True">
+						<Value>White</Value>
+					</SelectedRowTextColor>
+					<SelectedRowBackgroundColor IsStatic="True">
+						<Value>DodgerBlue</Value>
+					</SelectedRowBackgroundColor>
+					<EffectiveSelectedRowFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveSelectedRowFont>
+					<Minimum IsStatic="True">
+						<Value />
+					</Minimum>
+					<Maximum IsStatic="True">
+						<Value />
+					</Maximum>
+					<Increment IsStatic="True">
+						<Value />
+					</Increment>
+					<Source IsStatic="True">
+						<Value>0</Value>
+					</Source>
+				</DataTableControl>
 			</Controls>
 		</Form>
 	</project:Forms>
