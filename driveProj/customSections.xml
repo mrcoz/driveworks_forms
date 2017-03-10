@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta:ProjectMetadata xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
+  <meta:Section Name="FormDesigner" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
+    <FormDesigner />
+  </meta:Section>
+  <meta:Section Name="DesignModeVisibilities" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
+    <Visibilities>
+      <Visibility Id="CheckBox1" Value="1" />
+      <Visibility Id="ComboBox1" Value="1" />
+    </Visibilities>
+  </meta:Section>
+  <meta:Section Name="DesignModeLocks" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
+    <Locks>
+      <DesignLock Id="CheckBox1" Value="0" />
+      <DesignLock Id="ComboBox1" Value="0" />
+    </Locks>
+  </meta:Section>
+  <meta:Section Name="ControlGroupService" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
+    <ControlGroups />
+  </meta:Section>
+  <meta:Section Name="ResolutionGuideList" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
+    <ResolutionGuideList />
+  </meta:Section>
+</meta:ProjectMetadata>

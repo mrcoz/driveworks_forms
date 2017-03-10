@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TDM>
+  <Constants></Constants>
+  <SpecialVariables>
+    <SpecialVariable StoreName="DWProjectName" Value="a1" />
+    <SpecialVariable StoreName="DWSpecification" Rule="&quot;a1 &quot; &amp; TEXT(DWSpecificationID,&quot;0000&quot;)" />
+    <SpecialVariable StoreName="DWSpecificationPath" Rule="DWSpecification" />
+    <SpecialVariable StoreName="DWCurrentUserName" Value="Admin" />
+    <SpecialVariable StoreName="DWCurrentUserDisplayName" Value="" />
+    <SpecialVariable StoreName="DWCurrentUserEmailAddress" Value="" />
+    <SpecialVariable StoreName="DWCurrentUserPassword" Value="" />
+    <SpecialVariable StoreName="DWSpecificationId" Value="9999" />
+    <SpecialVariable StoreName="DWInitialSpecificationId" Value="" />
+    <SpecialVariable StoreName="DWRevisionNumber" Value="" />
+    <SpecialVariable StoreName="DWAdditionalFolders" Value="" />
+    <SpecialVariable StoreName="DWCurrentStateId" Value="" />
+    <SpecialVariable StoreName="DWCurrentStateName" Value="" />
+    <SpecialVariable StoreName="DWCurrentMacroCaller" Value="" />
+    <SpecialVariable StoreName="DWCurrentMacroArgument" Value="" />
+    <SpecialVariable StoreName="DWCurrentMacroClickPosition" Value="" />
+    <SpecialVariable StoreName="DWParentRowIndex" Value="" />
+    <SpecialVariable StoreName="DWSpecificationDefaultFolder" Value="" />
+    <SpecialVariable StoreName="DWSpecificationFullPath" Rule="FSPathCombine(DWSpecificationDefaultFolder, DWSpecificationPath)" />
+    <SpecialVariable StoreName="DWCurrentClientDetails" Value="DriveWorks Administrator/15.0 (Windows NT 6.3)" />
+    <SpecialVariable StoreName="DWCurrentClientLanguages" Value="Languages" />
+    <SpecialVariable StoreName="DWFormContainerWidth" Value="678" />
+    <SpecialVariable StoreName="DWFormContainerHeight" Value="557" />
+    <SpecialVariable StoreName="DWCurrentReleaseLoopIndex" Value="0" />
+    <SpecialVariable StoreName="DWSpecificationTags" Value="" />
+    <SpecialVariable StoreName="DWTouchPointHitPosition" Value="" />
+  </SpecialVariables>
+  <Variables></Variables>
+  <Navigation>
+    <Step Type="Start" Name="Start" Left="16" Top="16" NextStepValue="Details" NextMacroValue="" PreviousMacroValue="" NextStepRule="&quot;Details&quot;" />
+    <Step Type="Finish" Name="Finish" Left="400" Top="16" NextStepValue="" NextMacroValue="" PreviousMacroValue="" />
+    <Step Type="Form" Name="Details" Left="200" Top="16" NextStepRule="&quot;Finish&quot;" NextStepValue="Finish" NextMacroValue="" PreviousMacroValue="" />
+  </Navigation>
+  <Messages></Messages>
+  <Controls></Controls>
+  <Tables></Tables>
+</TDM>

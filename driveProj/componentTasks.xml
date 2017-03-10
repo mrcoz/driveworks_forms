@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<comp-task:ComponentTasks xmlns:comp-task="http://schemas.driveworks.co.uk/p-component-task/">
+  <comp-task:ComponentSpecific />
+  <comp-task:TypeSpecific />
+</comp-task:ComponentTasks>
