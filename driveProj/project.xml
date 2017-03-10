@@ -152,10 +152,10 @@
 				</CheckBox>
 				<ComboBox Name="ComboBox1">
 					<Left IsStatic="True">
-						<Value>50</Value>
+						<Value>27</Value>
 					</Left>
 					<Top IsStatic="True">
-						<Value>100</Value>
+						<Value>118</Value>
 					</Top>
 					<Width IsStatic="True">
 						<Value>200</Value>
