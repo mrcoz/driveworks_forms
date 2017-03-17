@@ -9,6 +9,7 @@
       <Visibility Id="ComboBox1" Value="1" />
       <Visibility Id="input12" Value="1" />
       <Visibility Id="DataTableControl1" Value="1" />
+      <Visibility Id="OptionButton1" Value="1" />
     </Visibilities>
   </meta:Section>
   <meta:Section Name="DesignModeLocks" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
@@ -17,12 +18,33 @@
       <DesignLock Id="ComboBox1" Value="0" />
       <DesignLock Id="input12" Value="0" />
       <DesignLock Id="DataTableControl1" Value="0" />
+      <DesignLock Id="OptionButton1" Value="0" />
     </Locks>
   </meta:Section>
   <meta:Section Name="ControlGroupService" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
     <ControlGroups />
   </meta:Section>
   <meta:Section Name="ResolutionGuideList" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
-    <ResolutionGuideList />
+    <ResolutionGuideList>
+      <ResolutionGuide Name="iPhone 5 Landscape" FormName="" Width="639" Height="488" />
+    </ResolutionGuideList>
+  </meta:Section>
+  <meta:Section Name="DWFormNavigationDisplayData" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
+    <FormNavigiationDisplayData xmlns="http://schemas.driveworks.co.uk/Form-Navigation-Display-Data/">
+      <fnd:FormStepTransitionDisplayData SourceSide="4" TargetSide="4" SourceOffset="0" TargetOffset="0" UseSourceOffset="" UseTargetOffset="" Name="Details1" xmlns:fnd="http://schemas.driveworks.co.uk/Form-Navigation-Display-Data/">
+        <fnd:Points>
+          <fnd:Point x="229" y="55" />
+          <fnd:Point x="258" y="55" />
+          <fnd:Point x="274" y="55" />
+          <fnd:Point x="274" y="55" />
+          <fnd:Point x="274" y="55" />
+          <fnd:Point x="384" y="55" />
+          <fnd:Point x="384" y="55" />
+          <fnd:Point x="384" y="55" />
+          <fnd:Point x="400" y="55" />
+          <fnd:Point x="429" y="55" />
+        </fnd:Points>
+      </fnd:FormStepTransitionDisplayData>
+    </FormNavigiationDisplayData>
   </meta:Section>
 </meta:ProjectMetadata>

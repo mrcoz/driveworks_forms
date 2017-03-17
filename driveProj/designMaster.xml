@@ -19,7 +19,7 @@
     <SpecialVariable StoreName="DWCurrentMacroArgument" Value="" />
     <SpecialVariable StoreName="DWCurrentMacroClickPosition" Value="" />
     <SpecialVariable StoreName="DWParentRowIndex" Value="" />
-    <SpecialVariable StoreName="DWSpecificationDefaultFolder" Value="" />
+    <SpecialVariable StoreName="DWSpecificationDefaultFolder" Value="C:\Users\markc\Documents\a\Specifications" />
     <SpecialVariable StoreName="DWSpecificationFullPath" Rule="FSPathCombine(DWSpecificationDefaultFolder, DWSpecificationPath)" />
     <SpecialVariable StoreName="DWCurrentClientDetails" Value="DriveWorks Administrator/15.0 (Windows NT 6.3)" />
     <SpecialVariable StoreName="DWCurrentClientLanguages" Value="Languages" />
@@ -37,5 +37,5 @@
   </Navigation>
   <Messages></Messages>
   <Controls></Controls>
-  <Tables></Tables>
+  <Tables />
 </TDM>
