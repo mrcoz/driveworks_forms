@@ -715,6 +715,98 @@
 						<Value />
 					</ListData>
 				</OptionButton>
+				<OptionButton Name="OptionButton4">
+					<Left IsStatic="True">
+						<Value>284</Value>
+					</Left>
+					<Top IsStatic="True">
+						<Value>24</Value>
+					</Top>
+					<Width IsStatic="True">
+						<Value>150</Value>
+					</Width>
+					<Height IsStatic="True">
+						<Value>24</Value>
+					</Height>
+					<TabIndex IsStatic="True">
+						<Value>0</Value>
+					</TabIndex>
+					<Visible IsStatic="False">
+						<Value>True</Value>
+					</Visible>
+					<Enabled IsStatic="False">
+						<Value>True</Value>
+					</Enabled>
+					<Error IsStatic="False">
+						<Value />
+					</Error>
+					<BackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</BackgroundColor>
+					<Tag IsStatic="True">
+						<Value />
+					</Tag>
+					<TooltipText IsStatic="True">
+						<Value />
+					</TooltipText>
+					<TooltipDuration IsStatic="True">
+						<Value>5</Value>
+					</TooltipDuration>
+					<Caption IsStatic="True">
+						<Value>Option Button4</Value>
+					</Caption>
+					<CaptionHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</CaptionHorizontalAlignment>
+					<EffectiveCaptionFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveCaptionFont>
+					<CaptionColor IsStatic="True">
+						<Value>ControlText</Value>
+					</CaptionColor>
+					<SelectedOptionSource IsStatic="False">
+						<Value />
+					</SelectedOptionSource>
+					<SelectedOptionValue IsStatic="False">
+						<Rule>=IF(OptionButton4="","",OptionButton4)</Rule>
+					</SelectedOptionValue>
+					<GroupName IsStatic="True">
+						<Value>DefaultGroup</Value>
+					</GroupName>
+					<OptionAlignment IsStatic="True">
+						<Value>Left</Value>
+					</OptionAlignment>
+					<PictureSelected IsStatic="True">
+						<Value />
+					</PictureSelected>
+					<PictureDefault IsStatic="True">
+						<Value />
+					</PictureDefault>
+					<PictureStyle IsStatic="True">
+						<Value>TextAndPicture</Value>
+					</PictureStyle>
+					<PictureSizeMode IsStatic="True">
+						<Value>Center</Value>
+					</PictureSizeMode>
+					<ShowCheck IsStatic="True">
+						<Value>True</Value>
+					</ShowCheck>
+					<AllowClearSelectedItem IsStatic="True">
+						<Value>False</Value>
+					</AllowClearSelectedItem>
+					<Minimum IsStatic="True">
+						<Value />
+					</Minimum>
+					<Maximum IsStatic="True">
+						<Value />
+					</Maximum>
+					<Increment IsStatic="True">
+						<Value />
+					</Increment>
+					<ListData IsStatic="True">
+						<Value />
+					</ListData>
+				</OptionButton>
 			</Controls>
 		</Form>
 	</project:Forms>
