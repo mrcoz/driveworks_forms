@@ -807,6 +807,92 @@
 						<Value />
 					</ListData>
 				</OptionButton>
+				<ListBox Name="ListBox1">
+					<Left IsStatic="True">
+						<Value>411</Value>
+					</Left>
+					<Top IsStatic="True">
+						<Value>24</Value>
+					</Top>
+					<Width IsStatic="True">
+						<Value>150</Value>
+					</Width>
+					<Height IsStatic="True">
+						<Value>24</Value>
+					</Height>
+					<TabIndex IsStatic="True">
+						<Value>0</Value>
+					</TabIndex>
+					<Visible IsStatic="False">
+						<Value>True</Value>
+					</Visible>
+					<Enabled IsStatic="False">
+						<Value>True</Value>
+					</Enabled>
+					<Error IsStatic="False">
+						<Value />
+					</Error>
+					<BackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</BackgroundColor>
+					<Tag IsStatic="True">
+						<Value />
+					</Tag>
+					<TooltipText IsStatic="True">
+						<Value />
+					</TooltipText>
+					<TooltipDuration IsStatic="True">
+						<Value>5</Value>
+					</TooltipDuration>
+					<Caption IsStatic="True">
+						<Value>List Box1</Value>
+					</Caption>
+					<CaptionWidth IsStatic="True">
+						<Value>100</Value>
+					</CaptionWidth>
+					<CaptionHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</CaptionHorizontalAlignment>
+					<EffectiveCaptionFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveCaptionFont>
+					<CaptionColor IsStatic="True">
+						<Value>ControlText</Value>
+					</CaptionColor>
+					<Items IsStatic="False">
+						<Value />
+					</Items>
+					<SelectedItem IsStatic="False">
+						<Rule>=IF(ListBox1="","",ListBox1)</Rule>
+					</SelectedItem>
+					<SelectedItemSource IsStatic="False">
+						<Value />
+					</SelectedItemSource>
+					<SelectedItemRemovedBehavior IsStatic="True">
+						<Value>SelectFirst</Value>
+					</SelectedItemRemovedBehavior>
+					<AllowClearSelectedItem IsStatic="True">
+						<Value>False</Value>
+					</AllowClearSelectedItem>
+					<DefaultValue IsStatic="True">
+						<Value />
+					</DefaultValue>
+					<EffectiveListFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveListFont>
+					<ListColor IsStatic="True">
+						<Value>ControlText</Value>
+					</ListColor>
+					<Minimum IsStatic="True">
+						<Value />
+					</Minimum>
+					<Maximum IsStatic="True">
+						<Value />
+					</Maximum>
+					<Increment IsStatic="True">
+						<Value />
+					</Increment>
+				</ListBox>
 			</Controls>
 		</Form>
 	</project:Forms>
