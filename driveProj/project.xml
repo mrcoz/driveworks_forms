@@ -893,6 +893,71 @@
 						<Value />
 					</Increment>
 				</ListBox>
+				<Label Name="Label1">
+					<Left IsStatic="True">
+						<Value>284</Value>
+					</Left>
+					<Top IsStatic="True">
+						<Value>58</Value>
+					</Top>
+					<Width IsStatic="True">
+						<Value>100</Value>
+					</Width>
+					<Height IsStatic="True">
+						<Value>24</Value>
+					</Height>
+					<TabIndex IsStatic="True">
+						<Value>0</Value>
+					</TabIndex>
+					<Visible IsStatic="False">
+						<Value>True</Value>
+					</Visible>
+					<Enabled IsStatic="False">
+						<Value>True</Value>
+					</Enabled>
+					<Error IsStatic="False">
+						<Value />
+					</Error>
+					<BackgroundColor IsStatic="True">
+						<Value>White</Value>
+					</BackgroundColor>
+					<Tag IsStatic="True">
+						<Value />
+					</Tag>
+					<TooltipText IsStatic="True">
+						<Value />
+					</TooltipText>
+					<TooltipDuration IsStatic="True">
+						<Value>5</Value>
+					</TooltipDuration>
+					<Text IsStatic="False">
+						<Rule>=IF(Label1="","",Label1)</Rule>
+					</Text>
+					<EffectiveTextFont IsStatic="True">
+						<Value>font-family: microsoft sans serif; font-size: 8.25pt; text-decoration:</Value>
+					</EffectiveTextFont>
+					<TextColor IsStatic="True">
+						<Value>ControlText</Value>
+					</TextColor>
+					<TextHorizontalAlignment IsStatic="True">
+						<Value>Left</Value>
+					</TextHorizontalAlignment>
+					<Minimum IsStatic="True">
+						<Value />
+					</Minimum>
+					<Maximum IsStatic="True">
+						<Value />
+					</Maximum>
+					<Increment IsStatic="True">
+						<Value />
+					</Increment>
+					<ListData IsStatic="True">
+						<Value />
+					</ListData>
+					<Source IsStatic="True">
+						<Value>Label1</Value>
+					</Source>
+				</Label>
 			</Controls>
 		</Form>
 	</project:Forms>
