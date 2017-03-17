@@ -9,7 +9,7 @@
       <Visibility Id="ComboBox1" Value="1" />
       <Visibility Id="input12" Value="1" />
       <Visibility Id="DataTableControl1" Value="1" />
-      <Visibility Id="OptionButton1" Value="1" />
+      <Visibility Id="Button1" Value="1" />
       <Visibility Id="OptionButton2" Value="1" />
       <Visibility Id="OptionButton3" Value="1" />
       <Visibility Id="OptionButton4" Value="1" />
@@ -21,7 +21,7 @@
       <DesignLock Id="ComboBox1" Value="0" />
       <DesignLock Id="input12" Value="0" />
       <DesignLock Id="DataTableControl1" Value="0" />
-      <DesignLock Id="OptionButton1" Value="0" />
+      <DesignLock Id="Button1" Value="0" />
       <DesignLock Id="OptionButton2" Value="0" />
       <DesignLock Id="OptionButton3" Value="0" />
       <DesignLock Id="OptionButton4" Value="0" />

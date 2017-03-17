@@ -439,7 +439,7 @@
 						<Value>0</Value>
 					</Source>
 				</DataTableControl>
-				<OptionButton Name="OptionButton1">
+				<OptionButton Name="Button1">
 					<Left IsStatic="True">
 						<Value>162</Value>
 					</Left>
@@ -492,7 +492,7 @@
 						<Value />
 					</SelectedOptionSource>
 					<SelectedOptionValue IsStatic="False">
-						<Rule>=IF(OptionButton1="","",OptionButton1)</Rule>
+						<Rule>=IF(Button1="","",Button1)</Rule>
 					</SelectedOptionValue>
 					<GroupName IsStatic="True">
 						<Value>DefaultGroup</Value>
