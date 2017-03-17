@@ -10,6 +10,7 @@
       <Visibility Id="input12" Value="1" />
       <Visibility Id="DataTableControl1" Value="1" />
       <Visibility Id="OptionButton1" Value="1" />
+      <Visibility Id="OptionButton2" Value="1" />
     </Visibilities>
   </meta:Section>
   <meta:Section Name="DesignModeLocks" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
@@ -19,6 +20,7 @@
       <DesignLock Id="input12" Value="0" />
       <DesignLock Id="DataTableControl1" Value="0" />
       <DesignLock Id="OptionButton1" Value="0" />
+      <DesignLock Id="OptionButton2" Value="0" />
     </Locks>
   </meta:Section>
   <meta:Section Name="ControlGroupService" xmlns:meta="http://schemas.driveworks.co.uk/project-metadata/">
